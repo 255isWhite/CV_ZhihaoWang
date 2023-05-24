@@ -16,7 +16,7 @@
 }}
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Harbin Institute of Technology (Weihai)}, Shandong, China}{2020 -- Present}
+\datedsubsection{\textbf{Harbin Institute of Technology (Weihai)}, Shandong, China}{Sep. 2020 -- Present}
 \begin{itemize}[parsep=0.5ex]
   \item \textit{B.S.} in Intelligent Vehicle Engineering , expected June 2024
   \item GPA:\textbf{92.36}/100\quad
@@ -24,38 +24,57 @@
   Top:\textbf{4.1\%}\quad
   TOEFL:\textbf{99}\quad
   CET6:\textbf{639}
-  \item Major courses: \scriptsize Linear Algebra and Analytic Geometry(99), Calculus(96), Circuits and Electronics(99), 
-  Automatic Control Principle(99), Environment Perception of Intelligent Vehicle(98), Planning and Decision-Making for Intelligent Vehicle(96), Structure of Automobile(97)
+  \item Major courses: \footnotesize Linear Algebra and Analytic Geometry(99), Calculus(96), Circuits and Electronics(99), 
+  Environment Perception of Intelligent Vehicle(98), Planning and Decision-Making for Intelligent Vehicle(96), Structure of Automobile(97)
+  , Automatic Control Principle(99), 	Data Mining(94)
 \end{itemize}
 
 
 
 \section{\faGithub\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{Feb. 2021 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\datedsubsection{\textbf{Harbin Institute of Technology's Formula Student Driverless Team }}{Feb. 2021 -- Present}
+\role{Team leader of perception group}{Shandong, China\;--\;Instructor: Jianfeng Wang}
+
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item[\textbf{*}]{
+    Yolov5 Model Training and Implementation with Nvidia TensoRT for Fast Cone Detections 
+    \begin{itemize}
+      \item[-] Make customized dataset with data enhacement tricks, used for network training
+      \item[-] Optimize detection speed through CUDA programming, boost from less than 50 fps to 140+ fps
+      \item[-] Migration from x86 PC to ARM platform including Jetson and Huawei Mobile Data Center (MDC)
+    \end{itemize}
+  }
+  \item[\textbf{*}]{
+    Cones' Visual Features Extraction and Visualization Based on ORB-SLAM2
+    \begin{itemize}
+      \item[-] Calibration of a monocular camera and joint calibration between a lidar and a camera
+      \item[-] Restrict input image with cone detection then extract ORB features from interested regions
+      \item[-] Project 2D features to 3D space and utilize ICP algorithm to iterative optimize camera poses
+    \end{itemize}
+  }
+  \item[\textbf{*}]{
+    Flexible and Multi-use Remote Terminal Control Node via SSH
+    \begin{itemize}
+      \item[-] Display completely and elgantly within a terminal window, able to fit windows' size automatically
+      \item[-] Auto start all nodes for autonomous driving, receive and show crital messages, display vehicle status
+    \end{itemize}
+  }
 \end{itemize}
 
-\datedsubsection{\textbf{Tencent TAD Sim Autonomous Driving Simulation Software Development}}{Nov. 2022 -- Present}
-\role{C++, Linux, Protobuf}{Team Projects, collaborated with teacher Quan Wang}
-Brief introduction: xxx
+
+\datedsubsection{\textbf{Tencent Autonomous Driving Simulator Software Development}} {Nov. 2022 -- Present}
+\role{Core Team Member}{Shandong, China\;--\;Instructor: Quan Wang}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+    \item[-]  Write ROS interface program, transfer virtual camera data from simulator to sensor\_msgs::Image in ROS
+    \item[-]  Complete structure and content of the class \textit{Environment Perception of Intelligent Vehicle}
 \end{itemize}
 
-\datedsubsection{\textbf{Overall integration technology development of ground unmanned vehicles of Beijing Institute of Aerospace Launch Technology}}{Mar. 2023 -- May. 2023}
-\role{C++, Shell, Linux}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+
+\datedsubsection{\textbf{Overall Integration Technology Development of Ground Unmanned Vehicles of Beijing Institute of Aerospace Launch Technology}}{Mar. 2023 -- May. 2023}
+\role{Core Team Member}{Shandong, China\;--\;Instructor: Jianfeng Wang}
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+  \item[-] Write a new CAN FD program based on Huawei communication rules and deploy it with cross-compile
+  \item[-] Migrate project's all former ROS packages from Jetson to Huawei Mobile Data Center (MDC)
 \end{itemize}
 
 % Reference Test
@@ -68,21 +87,15 @@ An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
 \section{\faTrophy\ Honors and Awards}
 \datedline{\textit{\nth{1} Prize}, Silver medal, Award on 2021 Formula Student Autonomous China (delayed by Covid-19) }{Jun. 2022}
 \datedline{\textit{\nth{1} Prize}, Bronze medal, Award on 2022 Formula Student Autonomous China }{Sep. 2022}
-\datedline{\textit{\nth{1} Prize} Scholarship }{May. 2023}
+\datedline{\textit{\nth{1} Prize} Scholarship (rank \nth{1} in major) }{May. 2023}
 \datedline{\textit{Other awards: } Excellent Student, \textit{\nth{2} Prize} Physics Competition for Colleges in Shandong} {2022}
 
-\section{\faCogs\ Technical Skills}
+\section{\faCogs\ Miscellaneous}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C++(mastered) > Python(skilled), C, Markdown, Shell, LaTex, HTML, CSS
-  \item Platform: Linux
-  \item Development: Web, xxx
-\end{itemize}
-
-
-\section{\faInfoCircle\ Miscellaneous}
-\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C++(mastered) > Python(skilled), C, Shell, HTML, CSS, Markdown, LaTex
   \item GitHub: https://github.com/255isWhite
-  \item Languages: English - Fluent, Mandarin - Native speaker
+  \item Languages: English - \textit{Fluent}, Mandarin - \textit{Native speaker}
+  \item Prospective: Fascinated by autonomous driving, currently interested in Neural Radiance Field (NeRF)
 \end{itemize}
 
 %% Reference
