@@ -12,6 +12,11 @@
 \RequirePackage{progressbar}
 % use hyperlink for email and url
 \RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,    
+    urlcolor=cyan,
+}
+
 \RequirePackage{url}
 \urlstyle{tt}
 % use fontawesome
@@ -86,6 +91,9 @@
 % defines one's email
 % usage: \email{<email>}
 \newcommand{\email}[1]{\faEnvelope\ \href{mailto:#1}{#1}}
+% defines one's website
+% usage: \web{<web>}
+\newcommand{\web}[1]{\href{http://#1}{#1}}
 % defines one's phone
 % usage: \phone{<phone>}
 \newcommand{\phone}[1]{\faPhone\ {#1}}
